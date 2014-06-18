@@ -21,7 +21,6 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "gitio2": "^2.0.0",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-irc": "^0.2.6",
     "hubot-scripts": ">= 2.5.0 < 3.0.0"
