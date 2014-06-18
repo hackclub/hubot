@@ -1,3 +1,2 @@
 ["redis-brain.coffee", "shipit.coffee", "alot.coffee", "hangout.coffee",
- "ackbar.coffee", "bees.coffee", "bitcoin.coffee",
- "github-pull-request-notifier.coffee"]
+ "ackbar.coffee", "bees.coffee", "bitcoin.coffee"]
