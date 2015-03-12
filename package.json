@@ -23,6 +23,7 @@
   "dependencies": {
     "cheerio": "^0.17.0",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-business-cat": "^1.1.16",
     "hubot-irc": "^0.2.6",
     "hubot-scripts": ">= 2.5.0 < 3.0.0"
   },
