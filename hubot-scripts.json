@@ -6,5 +6,6 @@
   "ackbar.coffee",
   "bees.coffee",
   "bitcoin.coffee",
-  "github-commits.coffee"
+  "github-commits.coffee",
+  "github-pull-request-notifier.coffee"
 ]
