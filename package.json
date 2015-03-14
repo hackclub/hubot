@@ -1,15 +1,15 @@
 {
-  "name": "hosted-hubot",
+  "name": "steward",
   "version": "2.7.1",
   "private": true,
-  "author": "GitHub Inc.",
+  "author": "hackEDU",
   "keywords": [
-    "github",
+    "hackedu",
     "hubot",
-    "campfire",
+    "steward",
     "bot"
   ],
-  "description": "A simple helpful robot for your Company",
+  "description": "Our friendly little servant.",
   "licenses": [
     {
       "type": "MIT",
@@ -26,7 +26,7 @@
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-business-cat": "^1.1.16",
     "hubot-irc": "^0.2.6",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0"
+    "hubot-scripts": "^2.5.16"
   },
   "engines": {
     "node": ">= 0.8.x",
