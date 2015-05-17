@@ -24,6 +24,7 @@
     "cheerio": "^0.17.0",
     "gitio2": "^3.0.0",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-deploy": "^0.6.51",
     "hubot-github-identity": "^0.9.1",
     "hubot-github-notify": "0.0.1",
     "hubot-irc": "^0.2.6",

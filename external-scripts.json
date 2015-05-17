@@ -1,5 +1,6 @@
 [
   "hubot-github-notify",
   "hubot-github-identity",
-  "hubot-sentiment"
+  "hubot-sentiment",
+  "hubot-deploy"
 ]
