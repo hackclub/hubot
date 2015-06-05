@@ -2,5 +2,6 @@
   "hubot-github-notify",
   "hubot-github-identity",
   "hubot-sentiment",
-  "hubot-deploy"
+  "hubot-deploy",
+  "hubot-github-comment-notifier"
 ]
