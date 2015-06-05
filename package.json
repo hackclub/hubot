@@ -29,7 +29,6 @@
     "hubot-github-notify": "0.0.1",
     "hubot-irc": "^0.2.6",
     "hubot-scripts": "^2.5.16",
-    "hubot-seen": "^0.2.2",
     "hubot-sentiment": "^1.2.6"
   },
   "engines": {
