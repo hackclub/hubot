@@ -1,5 +1,5 @@
 # Steward
 
-Steward is hackEDU's IRC bot. She's pretty cool.
+Steward is hackEDU's IRC bot.
 
-You can find her in #hackedu on freenode, going by `steward`.
+You can find him in #hackedu on freenode as `steward`.
