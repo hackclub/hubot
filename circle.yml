@@ -3,14 +3,10 @@ machine:
     - docker
 
 dependencies:
-  cache_directories:
-    - "~/docker"
   pre:
     - go get github.com/remind101/emp
   override:
-    - if [[ -e ~/docker/image.tar ]]; then docker load --input ~/docker/image.tar; fi
     - docker build -t hackedu/steward:$CIRCLE_SHA1 .
-    - mkdir -p ~/docker; docker save hackedu/steward > ~/docker/image.tar
 
 test:
   override:
