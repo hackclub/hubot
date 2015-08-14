@@ -1,5 +1,4 @@
 [
-  "hubot-github-notify",
   "hubot-github-identity",
   "hubot-sentiment",
   "hubot-deploy"
