@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "cheerio": "^0.17.0",
+    "chrono-node": "^1.0.6",
     "gitio2": "^3.0.0",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-deploy": "^0.6.51",
@@ -29,7 +30,8 @@
     "hubot-irc": "^0.2.6",
     "hubot-scripts": "^2.5.16",
     "hubot-sentiment": "^1.2.6",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6"
   },
   "engines": {
     "node": ">= 0.8.x",
