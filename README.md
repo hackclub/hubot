@@ -1,4 +1,4 @@
-# Steward
+# Steward [![Circle CI](https://circleci.com/gh/hackedu/steward.svg?style=svg)](https://circleci.com/gh/hackedu/steward)
 
 Steward is hackEDU's IRC bot.
 
