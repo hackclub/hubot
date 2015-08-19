@@ -1,5 +1,5 @@
 [
-  "hubot-credentials",
+  "github-credentials",
   "hubot-sentiment",
   "hubot-deploy"
 ]
