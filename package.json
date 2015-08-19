@@ -26,6 +26,7 @@
     "gitio2": "^3.0.0",
     "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-deploy": "^0.6.51",
+    "hubot-github-notify": "0.0.1",
     "hubot-irc": "^0.2.6",
     "hubot-scripts": "^2.5.16",
     "hubot-sentiment": "^1.2.6",
