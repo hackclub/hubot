@@ -7,5 +7,6 @@
   "bees.coffee",
   "bitcoin.coffee",
   "github-commits.coffee",
+  "github-credentials.coffee",
   "remind.coffee"
 ]
