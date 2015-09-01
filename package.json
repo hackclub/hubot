@@ -28,6 +28,7 @@
     "hubot-deploy": "^0.6.51",
     "hubot-github-notify": "git://github.com/hackedu/hubot-github-notify.git",
     "hubot-irc": "^0.2.6",
+    "hubot-regex": "0.0.3",
     "hubot-scripts": "^2.5.16",
     "hubot-sentiment": "^1.2.6",
     "lodash": "^3.10.1",
