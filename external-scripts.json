@@ -1,5 +1,6 @@
 [
   "hubot-github-notify",
   "hubot-sentiment",
-  "hubot-deploy"
+  "hubot-deploy",
+  "hubot-regex"
 ]
