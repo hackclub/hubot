@@ -1,41 +1,25 @@
 {
-  "name": "steward",
-  "version": "2.7.1",
+  "name": "Hubot",
+  "version": "0.0.0",
   "private": true,
-  "author": "hackEDU",
-  "keywords": [
-    "hackedu",
-    "hubot",
-    "steward",
-    "bot"
-  ],
-  "description": "Our friendly little servant.",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/github/hubot/raw/master/LICENSE"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/github/hubot.git"
-  },
+  "author": "Zach Latta <zach@hackedu.us>",
+  "description": "Delightfully aware robutt",
   "dependencies": {
-    "cheerio": "^0.17.0",
-    "chrono-node": "^1.0.6",
-    "gitio2": "^3.0.0",
-    "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-deploy": "^0.6.51",
-    "hubot-github-notify": "git://github.com/hackedu/hubot-github-notify.git",
-    "hubot-irc": "^0.2.6",
-    "hubot-regex": "0.0.3",
-    "hubot-scripts": "^2.5.16",
-    "hubot-sentiment": "^1.2.6",
-    "lodash": "^3.10.1",
-    "moment": "^2.10.6"
+    "hubot": "^2.16.0",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.2.2",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.1.2",
+    "hubot-heroku-keepalive": "^1.0.0",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.16.2",
+    "hubot-shipit": "^0.2.0",
+    "hubot-slack": "^3.4.1"
   },
   "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
+    "node": "0.10.x"
   }
 }
