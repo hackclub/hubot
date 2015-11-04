@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n steward
+web: bin/hubot -a slack

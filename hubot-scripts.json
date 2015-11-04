@@ -1,12 +1,1 @@
-[
-  "redis-brain.coffee",
-  "shipit.coffee",
-  "alot.coffee",
-  "hangout.coffee",
-  "ackbar.coffee",
-  "bees.coffee",
-  "bitcoin.coffee",
-  "github-commits.coffee",
-  "github-credentials.coffee",
-  "remind.coffee"
-]
+[]

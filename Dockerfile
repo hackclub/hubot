@@ -1,3 +1,3 @@
-FROM node:0.10-onbuild
+FROM node:4.2.1-onbuild
 EXPOSE 8080
-ENTRYPOINT bin/hubot -a irc -n steward
+ENTRYPOINT bin/hubot -a slack
