@@ -1,6 +1,6 @@
 # Hubot [![Circle CI](https://circleci.com/gh/hackedu/hubot.svg?style=svg)](https://circleci.com/gh/hackedu/hubot)
 
-Hubot is a chat bot built on the [Hubot][https://hubot.github.com/] framework.
+Hubot is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
 ### Running Hubot Locally
 
@@ -97,7 +97,7 @@ to including all scripts.**
 ### hubot-scripts
 
 Before hubot plugin packages were adopted, most plugins were held in the
-[hubot-scripts][https://github.com/github/hubot-scripts] package. Some of these
+[hubot-scripts](https://github.com/github/hubot-scripts) package. Some of these
 plugins have yet to be migrated to their own packages. They can still be used
 but the setup is a bit different.
 
