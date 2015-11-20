@@ -22,7 +22,8 @@
     "hubot-slack": "^3.4.1",
     "lodash": "^3.10.1",
     "request-promise": "^1.0.2",
-    "slack-api": "^0.1.11"
+    "slack-api": "^0.1.11",
+    "octokat": "~0.4.14"
   },
   "engines": {
     "node": "0.10.x"
