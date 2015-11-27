@@ -26,6 +26,14 @@ messages['replies'] = [
       "*Orpheus",
       "Did you mean me?",
       "No hubot here! I'm Orpheus now!"]
+  },
+  {
+    regex: /thank.*orpheus/i,
+    cases: [
+      "You're welcome!",
+      "My pleasure!",
+      "no worries",
+      "don't mention it :-)"]
   }
 ]
 
