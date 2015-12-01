@@ -1,4 +1,4 @@
-# Hubot [![Circle CI](https://circleci.com/gh/hackedu/hubot.svg?style=svg)](https://circleci.com/gh/hackedu/hubot)
+# Hubot [![Circle CI](https://circleci.com/gh/hackclub/hubot.svg?style=svg)](https://circleci.com/gh/hackclub/hubot)
 
 Hubot is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
