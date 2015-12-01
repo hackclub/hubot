@@ -14,6 +14,5 @@ module.exports = (robot) ->
   robot.hear /hackedu/i, (msg) ->
     msg.send msg.random msgs.org_name_reminders
 
-module.exports = (robot) ->
   robot.hear /^hubot/i, (msg) ->
     msg.send msg.random msgs.bot_name_reminders
