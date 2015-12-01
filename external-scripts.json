@@ -9,5 +9,6 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-remind-advanced"
+  "hubot-remind-advanced",
+  "hubot-voting"
 ]

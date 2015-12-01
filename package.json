@@ -23,7 +23,8 @@
     "lodash": "^3.10.1",
     "request-promise": "^1.0.2",
     "slack-api": "^0.1.11",
-    "octokat": "~0.4.14"
+    "octokat": "~0.4.14",
+    "hubot-voting": "~1.0.0"
   },
   "engines": {
     "node": "0.10.x"
