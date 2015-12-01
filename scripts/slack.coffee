@@ -3,12 +3,13 @@ url = require 'url'
 request = require 'request-promise'
 Promise = require 'bluebird'
 Slack = (require 'slack-api').promisify()
+msgs = require './lib/msgs'
 
 module.exports = (robot) ->
   token = process.env.HUBOT_SLACK_TOKEN
 
   robot.hear /who is missing (their )?(profile pictures|avatars)/i, (msg) ->
-    msg.send "Bzzt! Crunching the numbers..."
+    msg.send msg.random msgs.initializing
 
     Slack.users.list(token: token)
       .then (resp) ->
@@ -32,5 +33,4 @@ module.exports = (robot) ->
         msg.send "These scoundrels haven't set their avatars yet: " + 
           names.join ', '
       .catch (err) ->
-        msg.send "I'm terribly sorry, but I ran into an issue when crunching
-        those numbers. Can you check my logs and fix me?"
+        msg.send msg.random msgs.error
