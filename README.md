@@ -2,7 +2,7 @@
 
 Hubot is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
-### Running Hubot Locally
+## Running Hubot Locally
 
 You can test your hubot by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
@@ -24,7 +24,7 @@ Then you can interact with Hubot by typing `Hubot help`.
     Hubot help - Displays all of the help commands that Hubot knows about.
     ...
 
-### Configuration
+## Configuration
 
 A few scripts (including some installed by default) require environment
 variables to be set as a simple form of configuration.
@@ -44,7 +44,7 @@ How to set environment variables will be specific to your operating system.
 Rather than recreate the various methods and best practices in achieving this,
 it's suggested that you search for a dedicated guide focused on your OS.
 
-### Scripting
+## Scripting
 
 An example script is included at `scripts/example.coffee`, so check it out to
 get started.
@@ -52,7 +52,7 @@ get started.
 For many common tasks, there's a good chance someone has already one to do just
 the thing.
 
-### external-scripts
+## external-scripts
 
 There will inevitably be functionality that everyone will want. Instead of
 writing it yourself, you can use existing plugins.
@@ -74,7 +74,7 @@ To use a package, check the package's documentation, but in general it is:
 
 You can review `external-scripts.json` to see what is included by default.
 
-##### Advanced Usage
+### Advanced Usage
 
 It is also possible to define `external-scripts.json` as an object to
 explicitly specify which scripts from a package should be included. The example
@@ -94,7 +94,7 @@ the `hubot-fun` plugin, but all four of those in `hubot-auto-deploy`.
 **Be aware that not all plugins support this usage and will typically fallback
 to including all scripts.**
 
-### hubot-scripts
+## hubot-scripts
 
 Before hubot plugin packages were adopted, most plugins were held in the
 [hubot-scripts](https://github.com/github/hubot-scripts) package. Some of these
