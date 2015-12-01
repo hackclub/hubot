@@ -12,10 +12,14 @@ messages['error'] = [
   Can you check my logs and fix me?",
   "Something broke :-/ Please help fix me by checking my logs"]
 
-messages['name_reminders'] = [
+messages['org_name_reminders'] = [
   "*Hack Club",
   "Did you mean Hack Club?",
-  "No hackEDU here! We're Hack Club now!"
-]
+  "No hackEDU here! We're Hack Club now!"]
+
+messages['bot_name_reminders'] = [
+  "*Orpheus",
+  "Did you mean me?",
+  "No hubot here! I'm Orpheus now!"]
 
 module.exports = messages
