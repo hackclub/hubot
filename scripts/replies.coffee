@@ -1,5 +1,5 @@
 # Description:
-#   A command for reminding people of name changes
+#   A command that replies to things as specified in scripts/lib/messages
 #
 # Commands:
 #   /.*hackEDU.*/i - Promptly reminds the user that we have changed names
@@ -11,8 +11,7 @@
 msgs = require './lib/msgs'
 
 module.exports = (robot) ->
-  robot.hear /hackedu/i, (msg) ->
-    msg.send msg.random msgs.org_name_reminders
-
-  robot.hear /^hubot/i, (msg) ->
-    msg.send msg.random msgs.bot_name_reminders
+  for reply in msgs.replies
+    do (reply) ->
+      robot.hear reply.regex, (msg) ->
+        msg.send msg.random reply.cases
