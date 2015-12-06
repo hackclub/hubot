@@ -1,27 +1,27 @@
-# Hubot [![Circle CI](https://circleci.com/gh/hackclub/hubot.svg?style=svg)](https://circleci.com/gh/hackclub/hubot)
+# Orpheus [![Circle CI](https://circleci.com/gh/hackclub/orpheus.svg?style=svg)](https://circleci.com/gh/hackclub/orpheus)
 
-Hubot is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
+Orpheus is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
-## Running Hubot Locally
+## Running Orpheus Locally
 
-You can test your hubot by running the following, however some plugins will not
+You can test Orpheus by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
-You can start Hubot locally by running:
+You can start Orpheus locally by running:
 
     % bin/hubot
 
 You'll see some start up output and a prompt:
 
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
-    Hubot>
+    Orpheus>
 
-Then you can interact with Hubot by typing `Hubot help`.
+Then you can interact with Orpheus by typing `Orpheus help`.
 
-    Hubot> Hubot help
-    Hubot animate me <query> - The same thing as `image me`, except adds [snip]
-    Hubot help - Displays all of the help commands that Hubot knows about.
+    Orpheus> Orpheus help
+    Orpheus animate me <query> - The same thing as `image me`, except adds [snip]
+    Orpheus help - Displays all of the help commands that Orpheus knows about.
     ...
 
 ## Configuration
@@ -32,8 +32,8 @@ variables to be set as a simple form of configuration.
 Each script should have a commented header which contains a "Configuration"
 section that explains which values it requires to be placed in which variable.
 When you have lots of scripts installed this process can be quite labour
-intensive. The following shell command can be used as a stop gap until an
-easier way to do this has been implemented.
+intensive. The following shell command can be used as a stop gap until an easier
+way to do this has been implemented.
 
     grep -o 'hubot-[a-z0-9_-]\+' external-scripts.json | \
       xargs -n1 -I {} sh -c 'sed -n "/^# Configuration/,/^#$/ s/^/{} /p" \
@@ -57,7 +57,7 @@ the thing.
 There will inevitably be functionality that everyone will want. Instead of
 writing it yourself, you can use existing plugins.
 
-Hubot is able to load plugins from third-party `npm` packages. This is the
+Orpheus is able to load plugins from third-party `npm` packages. This is the
 recommended way to add functionality to your hubot. You can get a list of
 available hubot plugins on https://www.npmjs.com or by using `npm search`:
 
@@ -76,10 +76,10 @@ You can review `external-scripts.json` to see what is included by default.
 
 ### Advanced Usage
 
-It is also possible to define `external-scripts.json` as an object to
-explicitly specify which scripts from a package should be included. The example
-below, for example, will only activate two of the six available scripts inside
-the `hubot-fun` plugin, but all four of those in `hubot-auto-deploy`.
+It is also possible to define `external-scripts.json` as an object to explicitly
+specify which scripts from a package should be included. The example below, for
+example, will only activate two of the six available scripts inside the
+`hubot-fun` plugin, but all four of those in `hubot-auto-deploy`.
 
 ```json
 {
@@ -107,5 +107,5 @@ repo.
 
 ## Deployment
 
-Hubot is set up to automatically deploy whenever new code is merged into
+Orpheus is set up to automatically deploy whenever new code is merged into
 `master`.
