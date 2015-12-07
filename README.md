@@ -1,4 +1,4 @@
-# Orpheus [![Circle CI](https://circleci.com/gh/hackclub/orpheus.svg?style=svg)](https://circleci.com/gh/hackclub/orpheus)
+# Orpheus [![Circle CI](https://circleci.com/gh/hackclub/hubot.svg?style=svg)](https://circleci.com/gh/hackclub/hubot)
 
 Orpheus is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
