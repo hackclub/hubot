@@ -1,4 +1,8 @@
-# Orpheus [![Circle CI](https://circleci.com/gh/hackclub/hubot.svg?style=svg)](https://circleci.com/gh/hackclub/hubot)
+# Orpheus [DEPRECATED] [![Circle CI](https://circleci.com/gh/hackclub/hubot.svg?style=svg)](https://circleci.com/gh/hackclub/hubot)
+
+__*NOTICE*__: This repository has been deprecated and is no longer maintained. Check out https://github.com/hackclub/api for Hackbot, our new chat bot.
+
+---
 
 Orpheus is a chat bot built on the [Hubot](https://hubot.github.com/) framework.
 
